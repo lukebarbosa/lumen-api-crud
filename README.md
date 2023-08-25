@@ -37,6 +37,12 @@ php artisan migrate
 php -S localhost:8000 -t public
 ```
 
+#### Run to see the tests
+
+```
+vendor/bin/phpunit --testdox
+```
+
 ### Use Postman to test the API.
 
 #### GET - List all user
